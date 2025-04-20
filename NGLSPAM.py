@@ -36,7 +36,7 @@ def show_status(username, message):
         os.system("cls" if os.name == "nt" else "clear")
         print(ascii_art)
         print(Fore.LIGHTGREEN_EX + f"""
-┏━━━━━━━━━━━ R A N Z  S P A M M E R ━━━━━━━━━━━┓
+┏━━━━━━━━━━━ Y A N Z  S P A M M E R ━━━━━━━━━━━┓
 ┃ Spam   : {Fore.CYAN}{count:<39}{Fore.LIGHTGREEN_EX}┃
 ┃ Target : {Fore.CYAN}@{username:<38}{Fore.LIGHTGREEN_EX}┃
 ┃ Teks   : {Fore.CYAN}{message:<39}{Fore.LIGHTGREEN_EX}┃
